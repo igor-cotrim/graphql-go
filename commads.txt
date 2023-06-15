@@ -1,0 +1,18 @@
+Iniciar projeto:
+go run github.com/99designs/gqlgen init
+
+Gerar models e schemas:
+go run github.com/99designs/gqlgen generate
+
+Rodar servidor go:
+go run cmd/server/server.go 
+
+Entrar no Sqlite:
+sqlite3 data.sqlite
+
+baixar dependencias do go:
+go mod tidy
+
+links uteis:
+https://github.com/graphql/graphiql
+https://gqlgen.com
